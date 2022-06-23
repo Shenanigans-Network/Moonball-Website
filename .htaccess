@@ -1,0 +1,19 @@
+# Error codes
+ErrorDocument 404 /404.html
+ErrorDocument 403 /403.html
+ErrorDocument 500 /500.html
+
+# Redirects
+Redirect /opensource https://github.com/Shenanigans-Network/Discordbot/
+Redirect /bot https://youtu.be/dQw4w9WgXcQ
+Redirect /instagram https://www.instagram.com/moonball-network/
+Redirect /twitter https://twitter.com/moonballnetwork
+Redirect /youtube https://www.youtube.com/channel/UC4acYh3CVCw86B5MIhlQ5gw
+Redirect /reddit https://reddit.com/r/MoonballNetwork
+Redirect /discord https://discord.gg/krdHGQsne4
+Redirect /shop https://shop.moonball.io
+
+# Raj's Redirects
+Redirect /raj/8r https://discord.gg/YAdUfyKg9T
+Redirect /raj/9r https://discord.gg/XhPS4B394b
+

@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+
+* {
+    display: block;
+    font-family: Poppins, Roboto;
+}
+
+head {
+    display: none;
+}
+
+body {
+    margin: 0px;
+    background-color: #555;
+}
+
+.doc {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+
+
+.nav-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #252525;
+        border-bottom-left-radius: 15;
+    border-bottom-right-radius: 15;
+}
+
+.nav-bar .left a {
+    float: left;
+}
+.nav-bar .right a {
+    float: right;
+}
+
+.nav-bar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 12px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-bar li a:hover {
+    background-color: #555;
+}
+
+
+.collapsible {
+    background-color: #252525;
+    color: white;
+    cursor: pointer;
+    padding: 12px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    border-radius: 15px;
+    }
+
+.active, .collapsible:hover {
+    background-color: #252525;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.content {
+    padding: 0 12px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #555;
+    border-radius: 0px 0px 15px 15px;
+    }
+
+.generalbutton {
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 500px;
+    }
+
+.btnhold {
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
