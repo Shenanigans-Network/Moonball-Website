@@ -31,6 +31,7 @@ $(document).on("click",".ip",()=>{
 	},1000);
 });
 
+
 // This is to fetch the player count
 $(document).ready(()=>{
   const ip = $(".sip").attr("data-ip");
@@ -52,5 +53,14 @@ $(document).ready(()=>{
         $(".playercount").html("Server isn't online!");
       }
     });
-  }, 500);
+  }, 10000);
 });
+
+
+console.log("This website is opensource. https://github.com/Shenanigans-Network/moonball.io")
+console.log("This website is opensource. https://github.com/Shenanigans-Network/moonball.io")
+console.log("This website is opensource. https://github.com/Shenanigans-Network/moonball.io")
+console.log("This website is opensource. https://github.com/Shenanigans-Network/moonball.io")
+console.log("This website is opensource. https://github.com/Shenanigans-Network/moonball.io")
+
+	
